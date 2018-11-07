@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG.WebSiteUtils", "AG.WebSiteUtils\AG.WebSiteUtils.csproj", "{1B3DF39A-8420-43DE-B901-57915D5D7A45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG.LiteLoggers", "..\AG.LiteLoggers\LiteLoggers\AG.LiteLoggers.csproj", "{F46AAF93-2AFF-4970-BEB0-8DCABCEA4278}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		ReleaseMasked|Any CPU = ReleaseMasked|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B3DF39A-8420-43DE-B901-57915D5D7A45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B3DF39A-8420-43DE-B901-57915D5D7A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B3DF39A-8420-43DE-B901-57915D5D7A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B3DF39A-8420-43DE-B901-57915D5D7A45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B3DF39A-8420-43DE-B901-57915D5D7A45}.ReleaseMasked|Any CPU.ActiveCfg = Release|Any CPU
+		{1B3DF39A-8420-43DE-B901-57915D5D7A45}.ReleaseMasked|Any CPU.Build.0 = Release|Any CPU
+		{F46AAF93-2AFF-4970-BEB0-8DCABCEA4278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F46AAF93-2AFF-4970-BEB0-8DCABCEA4278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F46AAF93-2AFF-4970-BEB0-8DCABCEA4278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F46AAF93-2AFF-4970-BEB0-8DCABCEA4278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F46AAF93-2AFF-4970-BEB0-8DCABCEA4278}.ReleaseMasked|Any CPU.ActiveCfg = ReleaseMasked|Any CPU
+		{F46AAF93-2AFF-4970-BEB0-8DCABCEA4278}.ReleaseMasked|Any CPU.Build.0 = ReleaseMasked|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://anatoliig.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = ..\\AG.LiteLoggers\\LiteLoggers\\AG.LiteLoggers.csproj
+		SccProjectName0 = ../AG.LiteLoggers/LiteLoggers
+		SccLocalPath0 = ..\\AG.LiteLoggers\\LiteLoggers
+		SccProjectUniqueName1 = AG.WebSiteUtils\\AG.WebSiteUtils.csproj
+		SccProjectName1 = AG.WebSiteUtils
+		SccLocalPath1 = AG.WebSiteUtils
+		SccLocalPath2 = .
+	EndGlobalSection
+EndGlobal
