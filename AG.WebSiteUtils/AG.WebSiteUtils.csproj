@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AG.LiteLoggers, Version=2.4.4.27, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\MyProgs\MyMiniTools\ServerHealthService\WebApp\ServerHealthServiceWebApp\packages\AG.LiteLoggers.2.4.4.27\lib\net35\AG.LiteLoggers.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
@@ -88,12 +91,6 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\AG.LiteLoggers\LiteLoggers\AG.LiteLoggers.csproj">
-      <Project>{f46aaf93-2aff-4970-beb0-8dcabcea4278}</Project>
-      <Name>AG.LiteLoggers</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
